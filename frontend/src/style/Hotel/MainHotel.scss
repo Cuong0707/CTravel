@@ -1,0 +1,22 @@
+.img-MainHotel img{
+    width: 300px;
+    height: 227px;
+    border: none;
+}
+.card-MainHotel{
+  border-radius: 40px;
+}
+
+.card-MainHotel .card{
+  border-radius: 1px;
+  border: none;
+}
+
+.card-MainHotel {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2); /* Màu box-shadow ban đầu */
+  transition: box-shadow 0.3s; /* Hiệu ứng chuyển đổi màu smooth */
+  border: none;
+}
+.card-MainHotel .card:hover {
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2); /* Màu box-shadow khi hover */
+}

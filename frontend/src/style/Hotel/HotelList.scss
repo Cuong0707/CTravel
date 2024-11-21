@@ -1,0 +1,26 @@
+.container-hotel{
+    margin-bottom: 30px;
+}
+
+@keyframes color-blink {
+    0% {
+      background-color: #ff0000; /* Màu ban đầu */
+    }
+    25% {
+      background-color: #45ba45; /* Chuyển sang màu khác ở 25% thời gian */
+    }
+    50% {
+      background-color: #3d3db1; /* Chuyển sang màu khác ở 50% thời gian */
+    }
+    75% {
+      background-color: #c43dc4; /* Chuyển sang màu khác ở 75% thời gian */
+    }
+    100% {
+      background-color: #b84b4b; /* Quay lại màu ban đầu */
+    }
+  }
+  
+.blink-button {
+    animation: color-blink 4s infinite; /* Một chu kỳ hoàn thành sau 4 giây và lặp vô hạn */
+    border: none;
+}
